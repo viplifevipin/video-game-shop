@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4017e1a1-3fed-4521-ae6d-b47bcd3e5e61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user/signup.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/signup.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cH4GbcWKHRXPvqbdIPOdXYsrZ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="4.2.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopping cart/views/index.hbs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/shopp" />
+      <recent name="$PROJECT_DIR$/views/layouts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.www">
+    <configuration name="sign up.hbs" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shop/views/user/sign up.hbs" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="db-connect.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/dbconfig/db-connect.js" working-dir="$PROJECT_DIR$/dbconfig">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/index.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="passport.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/config/passport.js" working-dir="$PROJECT_DIR$/config">
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www" working-dir="$PROJECT_DIR$/bin">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+        <item itemvalue="Node.js.passport.js" />
+        <item itemvalue="Node.js.db-connect.js (1)" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="JavaScript Debug.sign up.hbs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4017e1a1-3fed-4521-ae6d-b47bcd3e5e61" name="Default Changelist" comment="" />
+      <created>1590172089573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590172089573</updated>
+      <workItem from="1590172091834" duration="428000" />
+      <workItem from="1590172610850" duration="1678000" />
+      <workItem from="1590207905123" duration="3803000" />
+      <workItem from="1590215567431" duration="7614000" />
+      <workItem from="1590243511417" duration="1998000" />
+      <workItem from="1590252987653" duration="1698000" />
+      <workItem from="1590257495399" duration="1281000" />
+      <workItem from="1590300231333" duration="7914000" />
+      <workItem from="1590338174939" duration="12665000" />
+      <workItem from="1590399090961" duration="3724000" />
+      <workItem from="1590411203852" duration="3316000" />
+      <workItem from="1590423509820" duration="1059000" />
+      <workItem from="1590424640712" duration="2888000" />
+      <workItem from="1590468582540" duration="7827000" />
+      <workItem from="1590507264214" duration="5840000" />
+      <workItem from="1590519484891" duration="930000" />
+      <workItem from="1590567710056" duration="207000" />
+      <workItem from="1590567938696" duration="8131000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1590572518070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590572518070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590568342356">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="453" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1301.744@65.24.1301.744" timestamp="1590568342356" />
+    <state x="502" y="140" width="424" height="482" key="FileChooserDialogImpl" timestamp="1590471665477">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="502" y="140" width="424" height="482" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1590471665477" />
+    <state width="1278" height="303" key="GridCell.Tab.0.bottom" timestamp="1590595852870">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="303" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1590595852870" />
+    <state width="1278" height="303" key="GridCell.Tab.0.center" timestamp="1590595852868">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="303" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1590595852868" />
+    <state width="1278" height="303" key="GridCell.Tab.0.left" timestamp="1590595852867">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="303" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1590595852867" />
+    <state width="1278" height="303" key="GridCell.Tab.0.right" timestamp="1590595852869">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1278" height="303" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1590595852869" />
+    <state x="503" y="67" key="RollbackChangesDialog" timestamp="1590572545813">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="503" y="67" key="RollbackChangesDialog/65.24.1301.744@65.24.1301.744" timestamp="1590572545813" />
+    <state x="209" y="24" key="SettingsEditor" timestamp="1590594645962">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="209" y="24" key="SettingsEditor/65.24.1301.744@65.24.1301.744" timestamp="1590594645962" />
+    <state x="379" y="168" key="run.anything.popup" timestamp="1590427463935">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="379" y="168" key="run.anything.popup/65.24.1301.744@65.24.1301.744" timestamp="1590427463935" />
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1590309326712">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/65.24.1301.744@65.24.1301.744" timestamp="1590309326712" />
+  </component>
+</project>

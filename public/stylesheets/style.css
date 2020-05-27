@@ -1,0 +1,16 @@
+.navbar-default{
+  text-decoration-color: white;
+  background-color: black;
+}
+
+.thumbnail .img-responsive
+{
+  min-height: 180px !important;
+  max-height: 180px !important;
+}
+.thumbnail .caption{
+  color :lightgreen;
+}
+.thumbnail .description  {
+color :darkslateblue;
+}
