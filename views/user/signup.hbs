@@ -1,21 +1,28 @@
-
-<div class="raw">
+<div class="row">
     <div class="col-md-4 col-md-offset-4">
-        <h1>SIGN UP</h1>
-        <form action="/user/signup" method="post">
-            <div class="form-group">
-                <label for="email">E-MAIL</label>
-                <input type="text" id="email" name="email" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password" class="form-control">
-            </div>
+        <h1>Sign Up</h1>
 
-            <button type="submit" class="btn btn-primary">SIGN UP</button>
+        <form action="/user/signup" method="post" >
+
+            {{#if hasError}}
+                <div class="alert alert-danger">
+                    {{# each message}}
+                        <label>{{this}}</label>
+                    {{/each}}
+                </div>
+            {{/if}}
+
+            <div class="form-group">
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" name="email" class="form-control">
+
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-control">
+
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
         </form>
     </div>
 </div>
-
-
-

@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">gameshoppie</a>
+            <a class="navbar-brand" href="/">gameshoppie</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,11 +21,21 @@
                         <i class="fa fa-user" aria-hidden="true"></i>
                         user management <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">user account</a></li>
+
+                        {{#if login}}
+
+                            <li><a href="/user/profile">user account</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/user/logout">log out</a></li>
+
+                        {{ else}}
+
+                            <li><a href="/user/signup">Sign Up</a></li>
+                            <li><a href="/user/signin">Sign In</a></li>
+
+                        {{/if}}
 
 
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">log out</a></li>
                     </ul>
                 </li>
             </ul>

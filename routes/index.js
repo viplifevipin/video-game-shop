@@ -1,8 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var dbConnect=require('../dbconfig/db-connect');
-var passport=require('passport')
-var user=require('../models/user')
+var passport=require('passport');
 var dbconfig = require('../dbconfig/db-connect');
 
 
@@ -14,17 +13,6 @@ router.get('/', function(req, res, next) {
     });
 
     });
-
-
-
-
-router.get('/user/signup',function (req,res,next) {
-    res.render('user/signup')
-});
-
-router.post('/user/signup',function (req,res,next) {
-    res.redirect('/')
-});
 
 
 module.exports = router;

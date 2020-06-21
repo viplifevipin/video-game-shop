@@ -4,17 +4,25 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var expressHbs=require('express-handlebars');
-var session=require('express-session');
+
 var mongodb=require('mongodb');
-var passport=require('passport');
-var flash=require('connect-flash');
+var  {check,validationResult}=require('express-validator')
+var session = require('express-session');
+var passport = require('passport');
+const flash = require('connect-flash');
+
+
+
+
+var indexRouter = require('./routes/index');
+var userRouter = require('./routes/user');
 
 
 
 var db=require('./dbconfig/db-connect');
-require('./config/passport');
 
-var indexRouter = require('./routes/index');
+
+
 
 var app = express();
 
@@ -37,14 +45,36 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use(session({secret:'mysupersecret',resave:false,saveUninitialized:false}))
-app.use(flash())
+app.use(session({
+  secret:'mysecret',
+  resave:false,
+  saveUninitialized:false,
+  cookie: { maxAge: 180 * 60 * 1000 }
+}));
+
+
+app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
+require('./config/passport')
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(function (req,res,next) {
+
+  res.locals.login=req.isAuthenticated();
+  next();
+
+})
+
+app.use(function(req, res,next){
+  res.locals.session = req.session;
+  next();
+});
+
 app.use('/', indexRouter);
+app.use('/user', userRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
