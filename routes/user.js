@@ -4,20 +4,29 @@ var bcrypt = require('bcrypt-nodejs');
 var passport = require('passport');
 var  {check,validationResult}=require('express-validator')
 let ObjectID = require('mongodb').ObjectID;
-var cart=require('../cart/cart');
+var Cart=require('../cart/cart');
 var dbConnect = require('../dbconfig/db-connect');
 
 
 router.get('/profile',isLoggedIn, function (req,res) {
 
-    dbConnect.get().collection('orders').findOne({user:req.user},function(err,orders){
+
+
+    dbConnect.get().collection('orders').find({user:req.user}).toArray(function(err,orders){
         if (err){
             return res.write('error')
         }
-        var cart;
-        console.log(orders)
+            var cart
+            orders.forEach(function (order) {
 
-            res.render('user/profile',{orders:req.orders});
+                cart=new Cart(order.cart);
+                order.items=cart.generateArray();
+            })
+        //res.send(orders)
+
+            res.render('user/profile',{orders:orders});
+
+        console.log(orders)
         });
 });
 

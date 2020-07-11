@@ -32,6 +32,26 @@ router.get('/add-cart/:id',function (req,res,next) {
     })
 })
 
+router.get('/reduce/:id',function (req,res,next) {
+
+    var productId=req.params.id;
+    var cart= new Cart(req.session.cart? req.session.cart:{items:{}});
+    cart.reduceByOne(productId);
+    req.session.cart=cart;
+    res.redirect('/shopping-cart')
+
+})
+
+router.get('/remove/:id',function (req,res,next) {
+
+    var productId=req.params.id;
+    var cart= new Cart(req.session.cart? req.session.cart:{items:{}});
+    cart.removeItems(productId);
+    req.session.cart=cart;
+    res.redirect('/shopping-cart')
+
+})
+
 router.get('/shopping-cart',function (req,res,next) {
     if (!req.session.cart) {
         return res.render('shop/shopping-cart', {products:null})
@@ -83,7 +103,9 @@ router.post('/checkout', isLoggedIn ,function (req,res,next) {
                 name:req.body.name,
                 paymentId:charge.id
             };
+
         dbConnect.get().collection('orders').insertOne(order);
+        console.log(order)
                 req.flash('success','successfully bought')
                 req.session.cart=null;
                 res.redirect('/')
