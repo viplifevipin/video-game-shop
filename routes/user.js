@@ -3,13 +3,22 @@ var router = express.Router();
 var bcrypt = require('bcrypt-nodejs');
 var passport = require('passport');
 var  {check,validationResult}=require('express-validator')
-
-
-var dbconfig = require('../dbconfig/db-connect');
+let ObjectID = require('mongodb').ObjectID;
+var cart=require('../cart/cart');
+var dbConnect = require('../dbconfig/db-connect');
 
 
 router.get('/profile',isLoggedIn, function (req,res) {
-    res.render('user/profile');
+
+    dbConnect.get().collection('orders').findOne({user:req.user},function(err,orders){
+        if (err){
+            return res.write('error')
+        }
+        var cart;
+        console.log(orders)
+
+            res.render('user/profile',{orders:req.orders});
+        });
 });
 
 router.get('/logout',isLoggedIn,function (req,res,next) {
@@ -33,10 +42,7 @@ router.get('/signin',function (req,res) {
 
 
 router.post('/signup',[check('email','Invalid email').isEmail(),check('password','Invalid password.').isLength({min:5})]
-    ,passport.authenticate('auth.strategy',  {
-
-
-
+    ,passport.authenticate('local-signUp',  {
     failureRedirect:'/user/signup',
     failureFlash:true
 }),function(req,res,next){
@@ -52,7 +58,7 @@ router.post('/signup',[check('email','Invalid email').isEmail(),check('password'
 
 
 
-router.post('/signin',[check('email','Invalid email').isEmail(),check('password','Invalid password.')],passport.authenticate('auth.strategy',  {
+router.post('/signin',[check('email','Invalid email').isEmail(),check('password','Invalid password.').isLength({min:5})],passport.authenticate('local.signIn',  {
 
 
 

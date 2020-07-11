@@ -16,7 +16,7 @@ passport.deserializeUser(function (user, done) {
     done(null, user);
 });
 
-passport.use('auth.strategy',new LocalStrategy({
+passport.use('local-signUp',new LocalStrategy({
     usernameField: 'email',
     passwordField: 'password',
     passReqToCallback: true
@@ -68,7 +68,7 @@ passport.use('auth.strategy',new LocalStrategy({
 }));
 
 
-passport.use('auth.strategy',new LocalStrategy({
+passport.use('local.signIn',new LocalStrategy({
     usernameField: 'email',
     passwordField: 'password',
     passReqToCallback: true
