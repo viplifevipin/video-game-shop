@@ -6,7 +6,6 @@ var logger = require('morgan');
 var expressHbs=require('express-handlebars');
 
 var mongodb=require('mongodb');
-var mongoose=require('mongoose')
 var  {check,validationResult}=require('express-validator')
 var session = require('express-session');
 var db=require('./dbconfig/db-connect');
