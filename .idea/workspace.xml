@@ -48,7 +48,8 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.4.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.0.27" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,12 +61,13 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/node_modules" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views/shopp" />
       <recent name="$PROJECT_DIR$/views/layouts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/node_modules" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.www">
@@ -94,6 +96,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -162,6 +165,7 @@
       <workItem from="1594220208272" duration="19538000" />
       <workItem from="1594371620853" duration="6203000" />
       <workItem from="1594449743040" duration="16969000" />
+      <workItem from="1597218355759" duration="837000" />
     </task>
     <task id="LOCAL-00001">
       <created>1590572518070</created>
@@ -174,7 +178,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -208,25 +212,25 @@
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state x="502" y="140" width="424" height="482" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1592129300989" />
-    <state width="1282" height="406" key="GridCell.Tab.0.bottom" timestamp="1594471817584">
+    <state width="1282" height="176" key="GridCell.Tab.0.bottom" timestamp="1597218592148">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state width="1282" height="406" key="GridCell.Tab.0.bottom/61.24.1305.744@61.24.1305.744" timestamp="1594471817584" />
+    <state width="1282" height="176" key="GridCell.Tab.0.bottom/61.24.1305.744@61.24.1305.744" timestamp="1597218592148" />
     <state width="1278" height="325" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1593090770307" />
-    <state width="1282" height="406" key="GridCell.Tab.0.center" timestamp="1594471817580">
+    <state width="1282" height="176" key="GridCell.Tab.0.center" timestamp="1597218592146">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state width="1282" height="406" key="GridCell.Tab.0.center/61.24.1305.744@61.24.1305.744" timestamp="1594471817580" />
+    <state width="1282" height="176" key="GridCell.Tab.0.center/61.24.1305.744@61.24.1305.744" timestamp="1597218592146" />
     <state width="1278" height="325" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1593090770307" />
-    <state width="1282" height="406" key="GridCell.Tab.0.left" timestamp="1594471817577">
+    <state width="1282" height="176" key="GridCell.Tab.0.left" timestamp="1597218592145">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state width="1282" height="406" key="GridCell.Tab.0.left/61.24.1305.744@61.24.1305.744" timestamp="1594471817577" />
+    <state width="1282" height="176" key="GridCell.Tab.0.left/61.24.1305.744@61.24.1305.744" timestamp="1597218592145" />
     <state width="1278" height="325" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1593090770306" />
-    <state width="1282" height="406" key="GridCell.Tab.0.right" timestamp="1594471817582">
+    <state width="1282" height="176" key="GridCell.Tab.0.right" timestamp="1597218592147">
       <screen x="61" y="24" width="1305" height="744" />
     </state>
-    <state width="1282" height="406" key="GridCell.Tab.0.right/61.24.1305.744@61.24.1305.744" timestamp="1594471817582" />
+    <state width="1282" height="176" key="GridCell.Tab.0.right/61.24.1305.744@61.24.1305.744" timestamp="1597218592147" />
     <state width="1278" height="325" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1593090770307" />
     <state width="1282" height="240" key="GridCell.Tab.1.bottom" timestamp="1594293161340">
       <screen x="61" y="24" width="1305" height="744" />
